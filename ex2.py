@@ -15,3 +15,7 @@ class Application:
         self.terceiroContainer["padx"] = 20
         self.terceiroContainer.pack()
         
+        self.quartoContainer = Frame(master)
+        self.quartoContainer["pady"] = 20
+        self.quartoContainer.pack()
+        
