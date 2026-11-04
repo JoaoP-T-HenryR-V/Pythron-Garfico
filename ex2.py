@@ -8,7 +8,7 @@ class Application:
         self.primeiroContainer.pack()
         
         self.segundoContainer = Frame(master)
-        self.segundoContainer["pack"] = 20
+        self.segundoContainer["padx"] = 20
         self.segundoContainer.pack()
         
         self.terceiroContainer = Frame(master)
